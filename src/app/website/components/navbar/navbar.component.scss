@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=PT+Sans+Narrow&display=swap');
 .toolbar{
     background-color: transparent;
     position: fixed;
     top: 0;
     a{
         text-decoration: none;
-        color: white;
+        color: #F5F5F5;
+        font-family: 'PT Sans Narrow', sans-serif;
     }
     a:hover{
-        border: 1px solid blue;
-        border-radius: 5px;
-        padding: 0.1%;
-        color: red;
+        color: #DCAE1D;
+    }
+    &.active {
+        color: #DCAE1D;
     }
 }
