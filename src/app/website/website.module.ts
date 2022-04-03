@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SharedModule } from '../shared/shared.module';
 import { HomeComponent } from './views/home/home.component';
+import { AboutComponent } from './views/about/about.component';
 
 
 
@@ -16,7 +17,8 @@ import { HomeComponent } from './views/home/home.component';
     LayoutComponent,
     NavbarComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule,
