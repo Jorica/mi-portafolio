@@ -1,0 +1,15 @@
+.toolbar{
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        border: 1px solid blue;
+        border-radius: 5px;
+        padding: 0.1%;
+        color: red;
+    }
+}
