@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=PT+Sans+Narrow&display=swap');
+.main{
+    background-color: #1e2326;
+    width: 100%;
+    height: auto;
+    padding: 2% 5%;
+    
+    .container{
+        background-color: #0f1626b8;
+        border-radius: 10px;
+        padding: 2% 5%;
+        margin-top: 5%;
+        .btnCV{
+            button{
+                border: 1px solid #DCAE1D;
+                border-radius: 5px;
+                color: #F5F5F5;
+                font-family: 'PT Sans Narrow', sans-serif !important;
+                font-size: 20px;
+            }
+            button:hover{
+                background-color: #DCAE1D;
+            }
+           
+        }
+        
+    }
+
+    .titleMain{
+        border-bottom: 5px solid #F5F5F5;
+        span{
+            color: #DCAE1D;
+            font-family: 'Oleo Script', cursive;
+            font-size: 50px;
+            padding-bottom: 2%;
+        }
+        
+    }
+
+    .description{
+        margin-top: 2%;
+        p{
+            color: #F5F5F5;
+            font-family: 'PT Sans Narrow', sans-serif;
+            font-size: 25px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+    }
+
+    .information{
+        margin-top: 2%;
+        
+        .titleInformation{
+            color: #DCAE1D;
+            font-family: 'Oleo Script', cursive;
+            font-size: 30px;
+            align-items: baseline !important;
+            
+        }
+
+        .listInformation{
+            ul{
+                color: #F5F5F5;
+                font-family: 'PT Sans Narrow', sans-serif !important;
+                font-size: 25px;
+                line-height: 1.5;
+                text-align: justify;
+                a{
+                    color: #DCAE1D;
+                }
+            }
+
+            mat-expansion-panel{
+                padding: 1%;
+                background-color: #1e2326;
+                mat-panel-title{
+                    span{
+                        color: #f5f5f5;
+                        font-family: 'PT Sans Narrow', sans-serif !important;
+                        font-size: 25px;
+                    }
+                }
+                li{
+                    font-family: 'PT Sans Narrow', sans-serif !important;
+                    font-size: 20px;
+                    line-height: 1.5;
+                    color: #f5f5f5;
+                    
+                }
+           
+            }
+        }
+
+        
+
+        .listStudy{
+            .study{
+                margin-top: 5%;
+                border-radius: 5px;
+                border: 1px solid #DCAE1D;
+                padding: 3%;
+                .icon{
+                    i{
+                        color: #DCAE1D !important;
+                        font-size: 30px;
+                    }
+                    
+                }
+                .info{
+                    margin-top: 5%;
+                    color: #F5F5F5;
+                    font-family: 'PT Sans Narrow', sans-serif !important;
+                    font-size: 30px;
+                }
+                
+            }
+            .study:hover{
+                background-color: #DCAE1D;
+                cursor: pointer;
+                .icon i{
+                    color: #F5F5F5 !important;
+                }
+              
+            }
+
+        }
+
+        .certificate{
+           button{
+               border: 1px solid #DCAE1D;
+               color: #F5F5F5;
+               i{
+                vertical-align: baseline !important;
+               }
+           }
+           button:hover{
+               background-color: #DCAE1D;
+           }
+        }
+    }
+}

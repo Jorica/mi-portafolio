@@ -1,0 +1,3 @@
+Anchura 7cm
+Altura 5cm
+resolucion 150px/pulgada

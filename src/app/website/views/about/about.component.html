@@ -1,1 +1,169 @@
-<p>about works!</p>
+<div class="main" fxLayout="column" fxLayoutAlign="center center" >
+    <div class="container" fxLayout="column" fxLayoutAlign="space-around">
+
+        <div class="titleMain" fxLayout="row" fxLayoutAlign="center start" fxFlex="100">
+            <span>Quien Soy</span>
+        </div>
+    
+        <div class="description" fxLayout="row" fxLayoutAlign="start center" fxFlex="100">
+            <p>Hola, soy Jorge titulado como ingeniero de sistemas. Estoy enfocado en la programación web, actualmente mi mayor habilidad es ser desarrollador frontend y backend usando el framework Angular, Laravel y MySQL. Soy comprometido con mi trabajo, me gusta trabajar en coordinación con las diferentes jefaturas y mi misión en todo cargo es llegar a cumplir los objetivos de la empresa y de mi equipo de trabajo.
+            </p>
+        </div>
+    
+        <div class="information" fxLayout="row" fxLayoutAlign="start start" fxFlex="100">
+
+            <div fxLayout="row" fxLayoutAlign="center center" fxFlex="50">
+
+                <div fxLayout="column" fxLayoutAlign="space-around" fxFlex="100">
+                    <div class="titleInformation" fxLayout="row" fxLayoutAlign="center start" fxFlex="100">
+                        <span>Información Personal</span>
+                        &nbsp;
+                        <i class="bi bi-info-circle"></i>
+                        
+                        
+                    </div>
+
+                    <div class="listInformation" fxLayout="row" fxLayoutAlign="start start" fxFlex="100">
+                        <ul>
+                            <li><strong>Nacionalidad:</strong>&nbsp;Colombiando</li>
+                            <li><strong>Edad:</strong>&nbsp; 25 Años</li>
+                            <li><strong>Ubicación:</strong> &nbsp; San Gil - Santander</li>
+                            <li><strong>Celular:</strong>&nbsp; +57 318 251 9484</li>
+                        </ul>
+                    </div>
+
+                 
+    
+                </div>
+
+            </div>
+            
+            <div fxLayout="row" fxLayoutAlign="center center" fxFlex="50" >
+                
+                <div fxLayout="column" fxLayoutAlign="space-around" fxFlex="100">
+    
+                    <div class="titleInformation" fxLayout="row" fxLayoutAlign="center start" fxFlex="100">
+                        <span>Estudios</span>
+                        &nbsp;
+                        <i class="bi bi-mortarboard"></i>
+                        
+                    </div>
+
+                    <div class="listStudy" fxLayout="row" fxLayoutAlign="space-around start" fxFlex="100" fxLayoutGap="5%">
+
+                        <div class="study" fxLayout="row" fxLayoutAlign="center start" fxFlex="50" (click)="viewTec()">
+                            <div fxLayout="column" fxLayoutAlign="space-around center" fxFlex="100">
+                                <span class="icon"><i class="bi bi-award"></i></span>
+                                <span class="info">Tecnólogo A.D.S.I</span>
+                                <span class="info">Sena</span>
+                                <span class="info">Diciembre 2017</span>
+                            </div>
+                        </div>
+
+                        <div class="study" fxLayout="row" fxLayoutAlign="center start" fxFlex="50" (click)="viewIng()">
+                            <div fxLayout="column" fxLayoutAlign="space-around center" fxFlex="100">
+                                <span class="icon"><i class="bi bi-award"></i></span>
+                                <span class="info">ING. Sistemas</span>
+                                <span class="info">Uniremington</span>
+                                <span class="info">Octubre 2021</span>
+                            </div>
+                        </div>
+
+                    </div>
+    
+                </div>
+
+            </div>
+                      
+        </div>
+        <br>
+        <div class="information" fxLayout="row" fxLayoutAlign="start start" fxFlex="100">
+            <div fxLayout="row" fxLayoutAlign="center center" fxFlex="50">
+                <div fxLayout="column" fxLayoutAlign="space-around" fxFlex="100">
+                    <div class="titleInformation" fxLayout="row" fxLayoutAlign="center start" fxFlex="100">
+                        <span>Certificados</span>
+                        &nbsp;
+                        <i class="bi bi-award"></i>
+                    </div>
+                    <br>
+                    <div class="certificate" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="2%">
+                        <button mat-icon-button (click)="viewCerificate(false)">
+                            <i class="bi bi-arrow-bar-left"></i>
+                        </button>
+                        <img [src]="certifiedList[certificate]">
+                        <button mat-icon-button (click)="viewCerificate(true)">
+                            <i class="bi bi-arrow-bar-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div fxLayout="row" fxLayoutAlign="center center" fxFlex="50">
+                <div fxLayout="column" fxLayoutAlign="space-around" fxFlex="100">
+                    <div class="titleInformation" fxLayout="row" fxLayoutAlign="center start" fxFlex="100">
+                        <span>Experiencia Laboral</span>
+                        &nbsp;
+                        <i class="bi bi-briefcase"></i>
+                    </div>
+                    <div class="listInformation" fxLayout="row" fxLayoutAlign="center start">
+                        <ul>
+                            <li>
+                                <strong>Desarrollador Junior Remoto - <a href="https://www.alpessolutions.com/"target="_blank">Alpes Solutions</a></strong>
+                            </li>
+                            <p>
+                                <span>02/Marzo/2021  -  04/Marzo/2022  (1 Año)</span>
+                            </p>
+                            <p>
+                                <mat-expansion-panel>
+                                    <mat-expansion-panel-header>
+                                      <mat-panel-title>
+                                        <span>Funciones</span>
+                                      </mat-panel-title>
+                                    </mat-expansion-panel-header>
+                                    <li>Creación y Consumo de APIS (LARAVEL).</li>
+                                    <li>Manejo de Lenguaje SQL (PostgreSQL).</li>
+                                    <li>Framework Angular 9 (SCSS).</li>
+                                    <li>Git Hub.</li>
+                                    <li>Administración de base de datos.</li>
+                                    <li>Ajustes en Proyectos React-Native.</li>
+                                </mat-expansion-panel>
+                            </p>
+                            
+                            <li>
+                                <strong>Desarrollador Junior Remoto - <a href="https://infodeclat.com/" target="_blank">Infodec</a></strong>
+                            </li>
+                            <p>
+                                <span>08/Marzo/2022  -  Actualidad</span>
+                            </p>
+                            <p>
+                                <mat-expansion-panel>
+                                    <mat-expansion-panel-header>
+                                      <mat-panel-title>
+                                        <span>Funciones</span>
+                                      </mat-panel-title>
+                                    </mat-expansion-panel-header>
+                                    <li>Aun Nada</li>
+                                   
+                                </mat-expansion-panel>
+                            </p>
+                            
+                         
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div fxLayout="row" fxLayoutAlign="center start" fxFlex="100">
+              <div class="btnCV" fxLayout="row" fxLayoutAlign="center start" fxFlex="100">
+                        <button mat-button (click)="viewCV()">
+                            <span>Descargar CV</span>
+                            &nbsp;
+                            <i class="bi bi-download"></i>
+                        </button>
+                    </div>
+        </div>
+    
+    </div>
+</div>
+
